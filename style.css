@@ -1,0 +1,73 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo geral */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #2c3e50, #3498db);
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container do jogo */
+.container {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Títulos e textos */
+h1 {
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+p {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+/* Campo de entrada */
+input[type="number"] {
+  padding: 10px;
+  width: 80%;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+/* Botão */
+button {
+  padding: 10px 20px;
+  background-color: #27ae60;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #2ecc71;
+}
+
+/* Mensagem */
+#mensagem {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #f1c40f;
+}
